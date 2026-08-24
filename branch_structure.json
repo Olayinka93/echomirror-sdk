@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/issue-106-feat-stellar-add-a-testnet-mainnet-network",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/issue-106-feat-stellar-add-a-testnet-mainnet-network": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/issue-106-feat-stellar-add-a-testnet-mainnet-network",
+    "origin"
+  ]
+}
