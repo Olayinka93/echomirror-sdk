@@ -8,6 +8,12 @@ npm-debug.log*
 /target/
 Cargo.lock
 
+# Python (crates/echomirror-python), created by scripts/bootstrap.sh
+crates/echomirror-python/.venv/
+crates/echomirror-python/**/__pycache__/
+crates/echomirror-python/**/*.so
+crates/echomirror-python/.pytest_cache/
+
 # JS/TS build output
 dist/
 packages/js/*/dist/
@@ -39,3 +45,6 @@ packages/js/stellar/e2e/.freighter/
 packages/js/stellar/e2e/app/bundle.js
 packages/js/stellar/test-results/
 packages/js/stellar/playwright-report/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
